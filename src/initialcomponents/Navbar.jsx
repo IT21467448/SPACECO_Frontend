@@ -148,7 +148,7 @@ const Navbar = () => {
                     {navItems.map(({ link, path }) => (
                         <a href={`#${path}`} key={path} className='block text-base text-white hover:text-green-600 first:front-medium border-b border-white'>{link}</a>
                     ))}
-                     <a href="/login" className="block text-base text-white hover:text-green-600 border-b border-white">Login</a>
+                     <Link to="/login" className="block text-base text-white hover:text-green-600 border-b border-white">Login</Link>
                     <Link to="/register" className='block text-base text-white hover:text-green-600'>Sign Up</Link>
                     
                 </div>
