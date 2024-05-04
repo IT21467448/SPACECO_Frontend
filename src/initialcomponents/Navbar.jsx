@@ -133,7 +133,7 @@ const Navbar = () => {
                         ))}
                     </ul>
                     <div className='space-x-12 hidden lg:flex items-center '>
-                        <a href="/login" className="hidden lg:flex item-center text-green-600 hover:text-gray-900 ">Login</a>
+                        <Link to="/login" className="hidden lg:flex item-center text-green-600 hover:text-gray-900 ">Login</Link>
                         <Link to="/register" className='bg-green-600 text-w px-4 py-2 transition-all duration-300 rounded hover:bg-slate-500'>Sign Up</Link>
                     </div>
                     <div className='md:hidden '>
